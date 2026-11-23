@@ -1,6 +1,6 @@
 // Importamos solo lo que necesitamos testear
-// ¡Actualizado para incluir 'restar'!
-const { sumar, restar } = require('../src/calculadora');
+// ¡Actualizado para incluir 'restar' y 'multiplicar'!
+const { sumar, restar, multiplicar } = require('../src/calculadora');
 
 // 'describe' agrupa tests relacionados. Es bueno para organizar.
 describe('Pruebas para la Calculadora', () => {
