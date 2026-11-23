@@ -5,11 +5,6 @@ on:
     branches: [master]
 
 jobs:
-    tets:
-on: 
-    pull_request:
-        branches: [ master ]
-jobs:
     test:
         runs-on: ubuntu-latest
         steps:
