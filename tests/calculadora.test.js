@@ -16,4 +16,11 @@ describe('Pruebas para la Calculadora', () => {
     expect(sumar(0, 0)).toBe(0);
   });
 
+  it('debería restar dos números correctamente', () => {
+    expect(restar(5, 3)).toBe(2);
+    expect(restar(10, 15)).toBe(-5);
+    expect(restar(0, 0)).toBe(0);
+  });
+
+
 });
